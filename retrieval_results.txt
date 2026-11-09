@@ -1,0 +1,1435 @@
+
+============================================================
+COLLECTION: w7d2_small
+============================================================
+
+Q1: What does a cell in a database table contain?
+
+Result 1:
+Document: Multiple Choice Questions (MCQs)
+1. What does a cell in a database table contain?
+a) A complete record about one entity
+b) A collection of related dat
+Distance: 0.8663773536682129
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 1
+
+Result 2:
+Document: True/False (T/F)
+20. A table is a way to organize data inside a database and consists of
+rows and columns.
+21. In a database table, a row represents o
+Distance: 0.9702503681182861
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 3
+
+Result 3:
+Document: base table, a row represents one property, such as a student's
+name.
+22. "Data" is defined as disconnected values without context
+(e.g., 38.5, 1001, T
+Distance: 0.9969292879104614
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 3
+
+Q2: Which SQL data type stores exact decimal values such as money?
+
+Result 1:
+Document: s
+d) To store exact decimals
+8. Which data type should be used for exact decimals where precision is critical, such as
+money?
+a) FLOAT
+b) DOUBLE
+c) DE
+Distance: 0.5023091435432434
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Result 2:
+Document: he primary purpose of the INT or INTEGER data type?
+a) To store text
+b) To store standard whole numbers
+c) To store dates
+d) To store exact decimals
+8
+Distance: 0.8347080945968628
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Result 3:
+Document: 44. Which numeric data type is best used for scientific measurements where extreme precision
+isn't required, but performance is?
+a) DECIMAL
+b) NUMERIC
+Distance: 0.9062954783439636
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 5
+
+Q3: Which tier reads and writes data from databases?
+
+Result 1:
+Document: a) Tier 1 (Client Side)
+b) Tier 2 (Application/Logic)
+c) Tier 3 (Data)
+d) None of the above
+6. Which tier writes and reads data from relational or NoS
+Distance: 0.40853825211524963
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Result 2:
+Document: ds data from relational or NoSQL databases?
+a) Presentation Tier
+b) Logic Tier
+c) Data Tier
+d) Network Tier
+7. What is the primary purpose of the INT 
+Distance: 0.7512475252151489
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Result 3:
+Document: re, the Data Tier (Tier 3) handles the execution
+of critical business logic like calculating final discounts.
+91. "Data Integrity" guarantees that mon
+Distance: 0.8656414747238159
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 10
+
+Q4: What is the purpose of a Primary Key?
+
+Result 1:
+Document: e composite primary keys.
+Distance: 0.7823567390441895
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 9
+
+Result 2:
+Document: able, why can't StudentID alone be the primary key?
+a) Because StudentID will not be unique for each enrollment.
+b) Because Ahmed is not a unique name
+Distance: 0.9867597818374634
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 8
+
+Result 3:
+Document:  with the partial key.
+c) Each non-key attribute now depends on the whole key of its respective new table.
+d) They become composite primary keys.
+Distance: 1.038651943206787
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 9
+
+Q5: Which normal form eliminates transitive dependencies?
+
+Result 1:
+Document: atisfies 2NF (assuming it is in 1NF) because there is no partial dependency.
+c) It violates 3NF.
+d) It has a transitive
+dependency.
+75. If Ahmed (Stud
+Distance: 0.9957538843154907
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 8
+
+Result 2:
+Document: If attribute C depends on the full key (A, B), but attribute D depends only on B, which Normal
+Form does this table violate?
+a) 1NF
+b) 2NF
+c) 3NF
+d) 4
+Distance: 1.063615083694458
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 7
+
+Result 3:
+Document: parate the name and the department.
+78. When breaking down a table with a partial dependency (violating 2NF) into three normalized
+tables, what happen
+Distance: 1.0886273384094238
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 9
+
+Q6: Why can't StudentID alone be a Primary Key when a student enrolls in multiple subjects?
+
+Result 1:
+Document: able, why can't StudentID alone be the primary key?
+a) Because StudentID will not be unique for each enrollment.
+b) Because Ahmed is not a unique name
+Distance: 0.3723348081111908
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 8
+
+Result 2:
+Document: 74. A StudentSubjects table has a composite primary key (StudentID, SubjectID) and a non-key
+attribute Grade. If Grade depends on both StudentID and S
+Distance: 0.6464205384254456
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 8
+
+Result 3:
+Document: dependency.
+75. If Ahmed (StudentID = 101) enrolls in two subjects, and we store both records in a single
+unnormalized table, why can't StudentID alon
+Distance: 0.6706352233886719
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 8
+
+Q7: How do 2NF and 3NF differ in handling dependencies?
+
+Result 1:
+Document: atisfies 2NF (assuming it is in 1NF) because there is no partial dependency.
+c) It violates 3NF.
+d) It has a transitive
+dependency.
+75. If Ahmed (Stud
+Distance: 0.5338223576545715
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 8
+
+Result 2:
+Document: violate 2NF because partial dependencies require
+a composite key.
+88. In database normalization, moving from 2NF to 3NF involves separating
+informatio
+Distance: 0.6650406122207642
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 10
+
+Result 3:
+Document:  still contain unnecessary data duplication
+if it has transitive dependencies.
+63. Under 3NF, every non-key attribute should depend on the key, the wh
+Distance: 0.9448798894882202
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 6
+
+Q8: How do the three tiers of a 3-tier architecture work together?
+
+Result 1:
+Document: re, the Data Tier (Tier 3) handles the execution
+of critical business logic like calculating final discounts.
+91. "Data Integrity" guarantees that mon
+Distance: 0.8607164025306702
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 10
+
+Result 2:
+Document: a) Tier 1 (Client Side)
+b) Tier 2 (Application/Logic)
+c) Tier 3 (Data)
+d) None of the above
+6. Which tier writes and reads data from relational or NoS
+Distance: 0.9679478406906128
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Result 3:
+Document: 
+c) PostgreSQL
+d) CSV
+5. Which tier in the 3-tier architecture is responsible for User Experience & Rendering
+(formatting HTML, CSS, images)?
+Distance: 0.9706272482872009
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 1
+
+Q9: What is the difference between SQL and NoSQL databases in scalability?
+
+Result 1:
+Document: ds data from relational or NoSQL databases?
+a) Presentation Tier
+b) Logic Tier
+c) Data Tier
+d) Network Tier
+7. What is the primary purpose of the INT 
+Distance: 0.9981619119644165
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Result 2:
+Document: a) Tier 1 (Client Side)
+b) Tier 2 (Application/Logic)
+c) Tier 3 (Data)
+d) None of the above
+6. Which tier writes and reads data from relational or NoS
+Distance: 1.0936768054962158
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Result 3:
+Document: ion
+c) Knowledge
+d) Persistence
+4. Which of the following is an example of a Relational Database?
+a) MongoDB
+b) Firebase
+c) PostgreSQL
+d) CSV
+5. Which
+Distance: 1.1418273448944092
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 1
+
+Q10: How does database replication work across multiple servers?
+
+Result 1:
+Document: age?
+a) Persistence
+b) Concurrency
+c) Security (Access Control)
+d) Data Integrity
+43. What happens in a database system if two people try to book seat
+Distance: 1.468870997428894
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 4
+
+Result 2:
+Document: ion
+c) Knowledge
+d) Persistence
+4. Which of the following is an example of a Relational Database?
+a) MongoDB
+b) Firebase
+c) PostgreSQL
+d) CSV
+5. Which
+Distance: 1.5506019592285156
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 1
+
+Result 3:
+Document: a) Tier 1 (Client Side)
+b) Tier 2 (Application/Logic)
+c) Tier 3 (Data)
+d) None of the above
+6. Which tier writes and reads data from relational or NoS
+Distance: 1.5536658763885498
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+============================================================
+COLLECTION: w7d2_medium
+============================================================
+
+Q1: What does a cell in a database table contain?
+
+Result 1:
+Document: True/False (T/F)
+20. A table is a way to organize data inside a database and consists of
+rows and columns.
+21. In a database table, a row represents one property, such as a student's
+name.
+22. "Data" is defined as disconnected values without context
+(e.g., 38.5, 1001, True).
+23. Flat files and spreadsheets (like CSV and Excel) slow down severely
+when dealing with millions of rows.
+24. A Primary Ke
+Distance: 0.8923568725585938
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 3
+
+Result 2:
+Document: Multiple Choice Questions (MCQs)
+1. What does a cell in a database table contain?
+a) A complete record about one entity
+b) A collection of related data
+c) One value at the intersection of a row and a column
+d) Multiple records
+2. The statement "Patient #1001 has a body temperature of 38.5°C" is an example of:
+a) Data
+b) Information
+c) Knowledge
+d) A database
+3. Applying human understanding, experi
+Distance: 0.9025910496711731
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 1
+
+Result 3:
+Document: ) Information
+c) Knowledge
+d) A database
+3. Applying human understanding, experience, and rules to information to make a decision is
+called:
+a) Data
+b) Information
+c) Knowledge
+d) Persistence
+4. Which of the following is an example of a Relational Database?
+a) MongoDB
+b) Firebase
+c) PostgreSQL
+d) CSV
+5. Which tier in the 3-tier architecture is responsible for User Experience & Rendering
+(formattin
+Distance: 1.1460673809051514
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 1
+
+Q2: Which SQL data type stores exact decimal values such as money?
+
+Result 1:
+Document:  standard whole numbers
+c) To store dates
+d) To store exact decimals
+8. Which data type should be used for exact decimals where precision is critical, such as
+money?
+a) FLOAT
+b) DOUBLE
+c) DECIMAL
+d) REAL
+Distance: 0.543891966342926
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Result 2:
+Document: 44. Which numeric data type is best used for scientific measurements where extreme precision
+isn't required, but performance is?
+a) DECIMAL
+b) NUMERIC
+c) INT
+d) FLOAT / REAL
+45. If a Student table has a Subjects column containing the value "Math, English, Python" for a
+single record, which normal form does this violate?
+a) 1NF
+b) 2NF
+c) 3NF
+d) None
+Distance: 0.8034979104995728
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 5
+
+Result 3:
+Document: a) Tier 1 (Client Side)
+b) Tier 2 (Application/Logic)
+c) Tier 3 (Data)
+d) None of the above
+6. Which tier writes and reads data from relational or NoSQL databases?
+a) Presentation Tier
+b) Logic Tier
+c) Data Tier
+d) Network Tier
+7. What is the primary purpose of the INT or INTEGER data type?
+a) To store text
+b) To store standard whole numbers
+c) To store dates
+d) To store exact decimals
+8. Which da
+Distance: 1.0711801052093506
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Q3: Which tier reads and writes data from databases?
+
+Result 1:
+Document: a) Tier 1 (Client Side)
+b) Tier 2 (Application/Logic)
+c) Tier 3 (Data)
+d) None of the above
+6. Which tier writes and reads data from relational or NoSQL databases?
+a) Presentation Tier
+b) Logic Tier
+c) Data Tier
+d) Network Tier
+7. What is the primary purpose of the INT or INTEGER data type?
+a) To store text
+b) To store standard whole numbers
+c) To store dates
+d) To store exact decimals
+8. Which da
+Distance: 0.45634883642196655
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Result 2:
+Document: ) Information
+c) Knowledge
+d) A database
+3. Applying human understanding, experience, and rules to information to make a decision is
+called:
+a) Data
+b) Information
+c) Knowledge
+d) Persistence
+4. Which of the following is an example of a Relational Database?
+a) MongoDB
+b) Firebase
+c) PostgreSQL
+d) CSV
+5. Which tier in the 3-tier architecture is responsible for User Experience & Rendering
+(formattin
+Distance: 0.8433913588523865
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 1
+
+Result 3:
+Document: s.
+89. Because the client side performs lightweight input formatting, the
+server side does not need to re-validate the incoming data.
+90. In a 3-tier architecture, the Data Tier (Tier 3) handles the execution
+of critical business logic like calculating final discounts.
+91. "Data Integrity" guarantees that money is deducted from Account A and
+added to Account B together, or neither.
+92. In the 3NF 
+Distance: 0.9359924793243408
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 10
+
+Q4: What is the purpose of a Primary Key?
+
+Result 1:
+Document: d Excel) slow down severely
+when dealing with millions of rows.
+24. A Primary Key allows duplicate values so you can group similar records
+together.
+25. A Primary Key does not allow NULL values.
+26. The client side in a 3-tier architecture is trusted for security
+validations.
+Distance: 0.8824946880340576
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 3
+
+Result 2:
+Document: It violates 3NF.
+d) It has a transitive
+dependency.
+75. If Ahmed (StudentID = 101) enrolls in two subjects, and we store both records in a single
+unnormalized table, why can't StudentID alone be the primary key?
+a) Because StudentID will not be unique for each enrollment.
+b) Because Ahmed is not a unique name.
+c) Because StudentID allows NULL values.
+d) Because primary keys cannot be numbers.
+76. 
+Distance: 1.0278849601745605
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 8
+
+Result 3:
+Document: UIDs are universally unique identifiers
+containing 36-character strings used for unique primary keys across
+distributed systems.
+62. A table can satisfy 2NF and still contain unnecessary data duplication
+if it has transitive dependencies.
+63. Under 3NF, every non-key attribute should depend on the key, the whole
+key, and nothing but the key.
+Distance: 1.1715168952941895
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 6
+
+Q5: Which normal form eliminates transitive dependencies?
+
+Result 1:
+Document: 74. A StudentSubjects table has a composite primary key (StudentID, SubjectID) and a non-key
+attribute Grade. If Grade depends on both StudentID and SubjectID together, what is true about
+the table regarding 2NF?
+a) It violates 2NF.
+b) It satisfies 2NF (assuming it is in 1NF) because there is no partial dependency.
+c) It violates 3NF.
+d) It has a transitive
+dependency.
+75. If Ahmed (StudentID = 10
+Distance: 1.0959985256195068
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 8
+
+Result 2:
+Document: (PK) and DepartmentName.
+c) Create two tables: one with StudentID and StudentName, and another with StudentName and
+DepartmentName.
+d) Create three tables to separate the name and the department.
+78. When breaking down a table with a partial dependency (violating 2NF) into three normalized
+tables, what happens to the non-key attributes?
+a) They are all deleted.
+b) They remain in the original table
+Distance: 1.112740397453308
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 9
+
+Result 3:
+Document: Multiple Choice Questions (MCQs)
+71. Suppose a table has a composite Primary Key (A, B) and non-key attributes C and D.
+If attribute C depends on the full key (A, B), but attribute D depends only on B, which Normal
+Form does this table violate?
+a) 1NF
+b) 2NF
+c) 3NF
+d) 4NF
+72. You have a table with EmployeeID (Primary Key), EmployeeName, JobID, and JobTitle.
+If JobTitle depends on JobID, and JobID 
+Distance: 1.148951530456543
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 7
+
+Q6: Why can't StudentID alone be a Primary Key when a student enrolls in multiple subjects?
+
+Result 1:
+Document: It violates 3NF.
+d) It has a transitive
+dependency.
+75. If Ahmed (StudentID = 101) enrolls in two subjects, and we store both records in a single
+unnormalized table, why can't StudentID alone be the primary key?
+a) Because StudentID will not be unique for each enrollment.
+b) Because Ahmed is not a unique name.
+c) Because StudentID allows NULL values.
+d) Because primary keys cannot be numbers.
+76. 
+Distance: 0.44759923219680786
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 8
+
+Result 2:
+Document: e primary key out of (StudentID, SubjectID)
+immediately puts the entire table into 3NF.
+Distance: 0.7177127599716187
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 10
+
+Result 3:
+Document: cted from Account A and
+added to Account B together, or neither.
+92. In the 3NF conversion example provided in the text, the DepartmentID in
+the Students table acts as a foreign key reference to the Departments table.
+93. If you have an unnormalized table where one student studies multiple
+subjects, creating a composite primary key out of (StudentID, SubjectID)
+immediately puts the entire table in
+Distance: 0.891111433506012
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 10
+
+Q7: How do 2NF and 3NF differ in handling dependencies?
+
+Result 1:
+Document: True/False (T/F)
+87. If a table has a single-column primary key and currently satisfies 1NF,
+it is impossible for it to violate 2NF because partial dependencies require
+a composite key.
+88. In database normalization, moving from 2NF to 3NF involves separating
+information into new tables to eliminate partial dependencies.
+89. Because the client side performs lightweight input formatting, the
+server
+Distance: 0.7013648748397827
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 10
+
+Result 2:
+Document: 74. A StudentSubjects table has a composite primary key (StudentID, SubjectID) and a non-key
+attribute Grade. If Grade depends on both StudentID and SubjectID together, what is true about
+the table regarding 2NF?
+a) It violates 2NF.
+b) It satisfies 2NF (assuming it is in 1NF) because there is no partial dependency.
+c) It violates 3NF.
+d) It has a transitive
+dependency.
+75. If Ahmed (StudentID = 10
+Distance: 0.8512678742408752
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 8
+
+Result 3:
+Document: ?
+a) 1NF
+b) 2NF
+c) 3NF
+d) None
+Distance: 1.0320369005203247
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 5
+
+Q8: How do the three tiers of a 3-tier architecture work together?
+
+Result 1:
+Document: he 3-tier architecture is responsible for User Experience & Rendering
+(formatting HTML, CSS, images)?
+Distance: 0.7376517057418823
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 1
+
+Result 2:
+Document: s.
+89. Because the client side performs lightweight input formatting, the
+server side does not need to re-validate the incoming data.
+90. In a 3-tier architecture, the Data Tier (Tier 3) handles the execution
+of critical business logic like calculating final discounts.
+91. "Data Integrity" guarantees that money is deducted from Account A and
+added to Account B together, or neither.
+92. In the 3NF 
+Distance: 0.9592478275299072
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 10
+
+Result 3:
+Document: a) Tier 1 (Client Side)
+b) Tier 2 (Application/Logic)
+c) Tier 3 (Data)
+d) None of the above
+6. Which tier writes and reads data from relational or NoSQL databases?
+a) Presentation Tier
+b) Logic Tier
+c) Data Tier
+d) Network Tier
+7. What is the primary purpose of the INT or INTEGER data type?
+a) To store text
+b) To store standard whole numbers
+c) To store dates
+d) To store exact decimals
+8. Which da
+Distance: 1.1242077350616455
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Q9: What is the difference between SQL and NoSQL databases in scalability?
+
+Result 1:
+Document: a) Tier 1 (Client Side)
+b) Tier 2 (Application/Logic)
+c) Tier 3 (Data)
+d) None of the above
+6. Which tier writes and reads data from relational or NoSQL databases?
+a) Presentation Tier
+b) Logic Tier
+c) Data Tier
+d) Network Tier
+7. What is the primary purpose of the INT or INTEGER data type?
+a) To store text
+b) To store standard whole numbers
+c) To store dates
+d) To store exact decimals
+8. Which da
+Distance: 0.9552730321884155
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Result 2:
+Document: ) Information
+c) Knowledge
+d) A database
+3. Applying human understanding, experience, and rules to information to make a decision is
+called:
+a) Data
+b) Information
+c) Knowledge
+d) Persistence
+4. Which of the following is an example of a Relational Database?
+a) MongoDB
+b) Firebase
+c) PostgreSQL
+d) CSV
+5. Which tier in the 3-tier architecture is responsible for User Experience & Rendering
+(formattin
+Distance: 1.0916773080825806
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 1
+
+Result 3:
+Document: s is an example of which database advantage?
+a) Persistence
+b) Concurrency
+c) Security (Access Control)
+d) Data Integrity
+43. What happens in a database system if two people try to book seat 12A on a flight at the
+exact same time?
+a) Both users are given the seat.
+b) The database engine locks the row instantaneously, guaranteeing only one booking
+succeeds.
+c) The database crashes and restarts.
+d) 
+Distance: 1.1095318794250488
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 4
+
+Q10: How does database replication work across multiple servers?
+
+Result 1:
+Document: s is an example of which database advantage?
+a) Persistence
+b) Concurrency
+c) Security (Access Control)
+d) Data Integrity
+43. What happens in a database system if two people try to book seat 12A on a flight at the
+exact same time?
+a) Both users are given the seat.
+b) The database engine locks the row instantaneously, guaranteeing only one booking
+succeeds.
+c) The database crashes and restarts.
+d) 
+Distance: 1.4184234142303467
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 4
+
+Result 2:
+Document: ) Information
+c) Knowledge
+d) A database
+3. Applying human understanding, experience, and rules to information to make a decision is
+called:
+a) Data
+b) Information
+c) Knowledge
+d) Persistence
+4. Which of the following is an example of a Relational Database?
+a) MongoDB
+b) Firebase
+c) PostgreSQL
+d) CSV
+5. Which tier in the 3-tier architecture is responsible for User Experience & Rendering
+(formattin
+Distance: 1.5769882202148438
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 1
+
+Result 3:
+Document: a) Tier 1 (Client Side)
+b) Tier 2 (Application/Logic)
+c) Tier 3 (Data)
+d) None of the above
+6. Which tier writes and reads data from relational or NoSQL databases?
+a) Presentation Tier
+b) Logic Tier
+c) Data Tier
+d) Network Tier
+7. What is the primary purpose of the INT or INTEGER data type?
+a) To store text
+b) To store standard whole numbers
+c) To store dates
+d) To store exact decimals
+8. Which da
+Distance: 1.595541000366211
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+============================================================
+COLLECTION: w7d2_large
+============================================================
+
+Q1: What does a cell in a database table contain?
+
+Result 1:
+Document: True/False (T/F)
+20. A table is a way to organize data inside a database and consists of
+rows and columns.
+21. In a database table, a row represents one property, such as a student's
+name.
+22. "Data" is defined as disconnected values without context
+(e.g., 38.5, 1001, True).
+23. Flat files and spreadsheets (like CSV and Excel) slow down severely
+when dealing with millions of rows.
+24. A Primary Key allows duplicate values so you can group similar records
+together.
+25. A Primary Key does not allow NULL values.
+26. The client side in a 3-tier architecture is trusted for security
+validations.
+Distance: 1.0604557991027832
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 3
+
+Result 2:
+Document: Multiple Choice Questions (MCQs)
+1. What does a cell in a database table contain?
+a) A complete record about one entity
+b) A collection of related data
+c) One value at the intersection of a row and a column
+d) Multiple records
+2. The statement "Patient #1001 has a body temperature of 38.5°C" is an example of:
+a) Data
+b) Information
+c) Knowledge
+d) A database
+3. Applying human understanding, experience, and rules to information to make a decision is
+called:
+a) Data
+b) Information
+c) Knowledge
+d) Persistence
+4. Which of the following is an example of a Relational Database?
+a) MongoDB
+b) Firebase
+c) PostgreSQL
+d) CSV
+5. Which tier in the 3-tier architecture is responsible for User Experience & Rendering
+(formatting HTML, CSS, images)?
+Distance: 1.1821715831756592
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 1
+
+Result 3:
+Document: Which database concept ensures that a column set to Age will strictly reject negative
+numbers?
+a) Data Persistence
+b) Transactional Integrity
+c) Data Integrity (Enforcing Correctness)
+d) Concurrency
+Distance: 1.3306262493133545
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 8
+
+Q2: Which SQL data type stores exact decimal values such as money?
+
+Result 1:
+Document: 44. Which numeric data type is best used for scientific measurements where extreme precision
+isn't required, but performance is?
+a) DECIMAL
+b) NUMERIC
+c) INT
+d) FLOAT / REAL
+45. If a Student table has a Subjects column containing the value "Math, English, Python" for a
+single record, which normal form does this violate?
+a) 1NF
+b) 2NF
+c) 3NF
+d) None
+Distance: 0.8034979104995728
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 5
+
+Result 2:
+Document: a) Tier 1 (Client Side)
+b) Tier 2 (Application/Logic)
+c) Tier 3 (Data)
+d) None of the above
+6. Which tier writes and reads data from relational or NoSQL databases?
+a) Presentation Tier
+b) Logic Tier
+c) Data Tier
+d) Network Tier
+7. What is the primary purpose of the INT or INTEGER data type?
+a) To store text
+b) To store standard whole numbers
+c) To store dates
+d) To store exact decimals
+8. Which data type should be used for exact decimals where precision is critical, such as
+money?
+a) FLOAT
+b) DOUBLE
+c) DECIMAL
+d) REAL
+Distance: 0.8390709757804871
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Result 3:
+Document: Multiple Choice Questions (MCQs)
+41. If you need to store student names in Arabic or other languages in SQL Server, which
+suggested data type should you choose?
+a) INT
+b) VARCHAR
+c) NVARCHAR
+d) DATE
+42. "A store cashier can read price tags and record sales, but only the HR manager can view
+employee salary records." This is an example of which database advantage?
+a) Persistence
+b) Concurrency
+c) Security (Access Control)
+d) Data Integrity
+43. What happens in a database system if two people try to book seat 12A on a flight at the
+exact same time?
+a) Both users are given the seat.
+b) The database engine locks the row instantaneously, guaranteeing only one booking
+succeeds.
+c) The database crashes and restarts.
+d) The record is duplicated.
+Distance: 1.1792399883270264
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 4
+
+Q3: Which tier reads and writes data from databases?
+
+Result 1:
+Document: a) Tier 1 (Client Side)
+b) Tier 2 (Application/Logic)
+c) Tier 3 (Data)
+d) None of the above
+6. Which tier writes and reads data from relational or NoSQL databases?
+a) Presentation Tier
+b) Logic Tier
+c) Data Tier
+d) Network Tier
+7. What is the primary purpose of the INT or INTEGER data type?
+a) To store text
+b) To store standard whole numbers
+c) To store dates
+d) To store exact decimals
+8. Which data type should be used for exact decimals where precision is critical, such as
+money?
+a) FLOAT
+b) DOUBLE
+c) DECIMAL
+d) REAL
+Distance: 0.5369074940681458
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Result 2:
+Document: Multiple Choice Questions (MCQs)
+1. What does a cell in a database table contain?
+a) A complete record about one entity
+b) A collection of related data
+c) One value at the intersection of a row and a column
+d) Multiple records
+2. The statement "Patient #1001 has a body temperature of 38.5°C" is an example of:
+a) Data
+b) Information
+c) Knowledge
+d) A database
+3. Applying human understanding, experience, and rules to information to make a decision is
+called:
+a) Data
+b) Information
+c) Knowledge
+d) Persistence
+4. Which of the following is an example of a Relational Database?
+a) MongoDB
+b) Firebase
+c) PostgreSQL
+d) CSV
+5. Which tier in the 3-tier architecture is responsible for User Experience & Rendering
+(formatting HTML, CSS, images)?
+Distance: 0.8325558304786682
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 1
+
+Result 3:
+Document: True/False (T/F)
+20. A table is a way to organize data inside a database and consists of
+rows and columns.
+21. In a database table, a row represents one property, such as a student's
+name.
+22. "Data" is defined as disconnected values without context
+(e.g., 38.5, 1001, True).
+23. Flat files and spreadsheets (like CSV and Excel) slow down severely
+when dealing with millions of rows.
+24. A Primary Key allows duplicate values so you can group similar records
+together.
+25. A Primary Key does not allow NULL values.
+26. The client side in a 3-tier architecture is trusted for security
+validations.
+Distance: 1.0789669752120972
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 3
+
+Q4: What is the purpose of a Primary Key?
+
+Result 1:
+Document: True/False (T/F)
+20. A table is a way to organize data inside a database and consists of
+rows and columns.
+21. In a database table, a row represents one property, such as a student's
+name.
+22. "Data" is defined as disconnected values without context
+(e.g., 38.5, 1001, True).
+23. Flat files and spreadsheets (like CSV and Excel) slow down severely
+when dealing with millions of rows.
+24. A Primary Key allows duplicate values so you can group similar records
+together.
+25. A Primary Key does not allow NULL values.
+26. The client side in a 3-tier architecture is trusted for security
+validations.
+Distance: 0.9252269268035889
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 3
+
+Result 2:
+Document:  with the partial key.
+c) Each non-key attribute now depends on the whole key of its respective new table.
+d) They become composite primary keys.
+Distance: 1.038651943206787
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 9
+
+Result 3:
+Document: conversion example provided in the text, the DepartmentID in
+the Students table acts as a foreign key reference to the Departments table.
+93. If you have an unnormalized table where one student studies multiple
+subjects, creating a composite primary key out of (StudentID, SubjectID)
+immediately puts the entire table into 3NF.
+Distance: 1.1015270948410034
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 10
+
+Q5: Which normal form eliminates transitive dependencies?
+
+Result 1:
+Document: 77. You have a table in 2NF with fields: StudentID (PK), StudentName, DepartmentID, and
+DepartmentName. To convert this to 3NF, how should you structure the tables?
+a) Keep it as one table; it is already in 3NF.
+b) Create two tables: one with StudentID (PK), StudentName, DepartmentID (FK) and another
+with DepartmentID (PK) and DepartmentName.
+c) Create two tables: one with StudentID and StudentName, and another with StudentName and
+DepartmentName.
+d) Create three tables to separate the name and the department.
+78. When breaking down a table with a partial dependency (violating 2NF) into three normalized
+tables, what happens to the non-key attributes?
+a) They are all deleted.
+b) They remain in the original table with the partial key.
+c) Each non-key attribute now depends on the whole key of its respective new table.
+d) They become composite primary keys.
+Distance: 1.2265808582305908
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 9
+
+Result 2:
+Document: Multiple Choice Questions (MCQs)
+71. Suppose a table has a composite Primary Key (A, B) and non-key attributes C and D.
+If attribute C depends on the full key (A, B), but attribute D depends only on B, which Normal
+Form does this table violate?
+a) 1NF
+b) 2NF
+c) 3NF
+d) 4NF
+72. You have a table with EmployeeID (Primary Key), EmployeeName, JobID, and JobTitle.
+If JobTitle depends on JobID, and JobID depends on EmployeeID, which Normal Form is
+violated?
+a) 1NF
+b) 2NF
+c) 3NF
+d) None
+73. According to the text, which process in Tier 2 involves calling external APIs (e.g., Stripe for
+payments, Twilio for SMS)?
+a) Input Validation
+b) Response Construction
+c) Integration & Orchestration
+d) Business Rules Enforcement
+Distance: 1.2368507385253906
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 7
+
+Result 3:
+Document: True/False (T/F)
+87. If a table has a single-column primary key and currently satisfies 1NF,
+it is impossible for it to violate 2NF because partial dependencies require
+a composite key.
+88. In database normalization, moving from 2NF to 3NF involves separating
+information into new tables to eliminate partial dependencies.
+89. Because the client side performs lightweight input formatting, the
+server side does not need to re-validate the incoming data.
+90. In a 3-tier architecture, the Data Tier (Tier 3) handles the execution
+of critical business logic like calculating final discounts.
+91. "Data Integrity" guarantees that money is deducted from Account A and
+added to Account B together, or neither.
+92. In the 3NF conversion example provided in the text, the DepartmentID in
+the Students table acts as a foreign key reference to the Departments table.
+93. If you have an unnormalized table wher
+Distance: 1.3473888635635376
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 10
+
+Q6: Why can't StudentID alone be a Primary Key when a student enrolls in multiple subjects?
+
+Result 1:
+Document: 74. A StudentSubjects table has a composite primary key (StudentID, SubjectID) and a non-key
+attribute Grade. If Grade depends on both StudentID and SubjectID together, what is true about
+the table regarding 2NF?
+a) It violates 2NF.
+b) It satisfies 2NF (assuming it is in 1NF) because there is no partial dependency.
+c) It violates 3NF.
+d) It has a transitive
+dependency.
+75. If Ahmed (StudentID = 101) enrolls in two subjects, and we store both records in a single
+unnormalized table, why can't StudentID alone be the primary key?
+a) Because StudentID will not be unique for each enrollment.
+b) Because Ahmed is not a unique name.
+c) Because StudentID allows NULL values.
+d) Because primary keys cannot be numbers.
+76. Which database concept ensures that a column set to Age will strictly reject negative
+numbers?
+a) Data Persistence
+b) Transactional Integrity
+c) Data Integrity (Enforcing Correctne
+Distance: 0.6408116221427917
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 8
+
+Result 2:
+Document: conversion example provided in the text, the DepartmentID in
+the Students table acts as a foreign key reference to the Departments table.
+93. If you have an unnormalized table where one student studies multiple
+subjects, creating a composite primary key out of (StudentID, SubjectID)
+immediately puts the entire table into 3NF.
+Distance: 0.7577555179595947
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 10
+
+Result 3:
+Document: True/False (T/F)
+87. If a table has a single-column primary key and currently satisfies 1NF,
+it is impossible for it to violate 2NF because partial dependencies require
+a composite key.
+88. In database normalization, moving from 2NF to 3NF involves separating
+information into new tables to eliminate partial dependencies.
+89. Because the client side performs lightweight input formatting, the
+server side does not need to re-validate the incoming data.
+90. In a 3-tier architecture, the Data Tier (Tier 3) handles the execution
+of critical business logic like calculating final discounts.
+91. "Data Integrity" guarantees that money is deducted from Account A and
+added to Account B together, or neither.
+92. In the 3NF conversion example provided in the text, the DepartmentID in
+the Students table acts as a foreign key reference to the Departments table.
+93. If you have an unnormalized table wher
+Distance: 1.1843503713607788
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 10
+
+Q7: How do 2NF and 3NF differ in handling dependencies?
+
+Result 1:
+Document: True/False (T/F)
+87. If a table has a single-column primary key and currently satisfies 1NF,
+it is impossible for it to violate 2NF because partial dependencies require
+a composite key.
+88. In database normalization, moving from 2NF to 3NF involves separating
+information into new tables to eliminate partial dependencies.
+89. Because the client side performs lightweight input formatting, the
+server side does not need to re-validate the incoming data.
+90. In a 3-tier architecture, the Data Tier (Tier 3) handles the execution
+of critical business logic like calculating final discounts.
+91. "Data Integrity" guarantees that money is deducted from Account A and
+added to Account B together, or neither.
+92. In the 3NF conversion example provided in the text, the DepartmentID in
+the Students table acts as a foreign key reference to the Departments table.
+93. If you have an unnormalized table wher
+Distance: 0.7991070747375488
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 10
+
+Result 2:
+Document: 77. You have a table in 2NF with fields: StudentID (PK), StudentName, DepartmentID, and
+DepartmentName. To convert this to 3NF, how should you structure the tables?
+a) Keep it as one table; it is already in 3NF.
+b) Create two tables: one with StudentID (PK), StudentName, DepartmentID (FK) and another
+with DepartmentID (PK) and DepartmentName.
+c) Create two tables: one with StudentID and StudentName, and another with StudentName and
+DepartmentName.
+d) Create three tables to separate the name and the department.
+78. When breaking down a table with a partial dependency (violating 2NF) into three normalized
+tables, what happens to the non-key attributes?
+a) They are all deleted.
+b) They remain in the original table with the partial key.
+c) Each non-key attribute now depends on the whole key of its respective new table.
+d) They become composite primary keys.
+Distance: 0.9449218511581421
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 9
+
+Result 3:
+Document: True/False (T/F)
+59. According to the text, the Client Side is responsible for calculating
+final discounts and determining user authorization levels.
+60. Transactional Integrity in Tier 3 ensures ACID compliance (e.g.,
+ensuring money is deducted from Account A and added to Account B together,
+or neither).
+61. UUIDs / GUIDs are universally unique identifiers
+containing 36-character strings used for unique primary keys across
+distributed systems.
+62. A table can satisfy 2NF and still contain unnecessary data duplication
+if it has transitive dependencies.
+63. Under 3NF, every non-key attribute should depend on the key, the whole
+key, and nothing but the key.
+Distance: 1.1248056888580322
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 6
+
+Q8: How do the three tiers of a 3-tier architecture work together?
+
+Result 1:
+Document: True/False (T/F)
+87. If a table has a single-column primary key and currently satisfies 1NF,
+it is impossible for it to violate 2NF because partial dependencies require
+a composite key.
+88. In database normalization, moving from 2NF to 3NF involves separating
+information into new tables to eliminate partial dependencies.
+89. Because the client side performs lightweight input formatting, the
+server side does not need to re-validate the incoming data.
+90. In a 3-tier architecture, the Data Tier (Tier 3) handles the execution
+of critical business logic like calculating final discounts.
+91. "Data Integrity" guarantees that money is deducted from Account A and
+added to Account B together, or neither.
+92. In the 3NF conversion example provided in the text, the DepartmentID in
+the Students table acts as a foreign key reference to the Departments table.
+93. If you have an unnormalized table wher
+Distance: 1.1349592208862305
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 10
+
+Result 2:
+Document: Multiple Choice Questions (MCQs)
+71. Suppose a table has a composite Primary Key (A, B) and non-key attributes C and D.
+If attribute C depends on the full key (A, B), but attribute D depends only on B, which Normal
+Form does this table violate?
+a) 1NF
+b) 2NF
+c) 3NF
+d) 4NF
+72. You have a table with EmployeeID (Primary Key), EmployeeName, JobID, and JobTitle.
+If JobTitle depends on JobID, and JobID depends on EmployeeID, which Normal Form is
+violated?
+a) 1NF
+b) 2NF
+c) 3NF
+d) None
+73. According to the text, which process in Tier 2 involves calling external APIs (e.g., Stripe for
+payments, Twilio for SMS)?
+a) Input Validation
+b) Response Construction
+c) Integration & Orchestration
+d) Business Rules Enforcement
+Distance: 1.151031732559204
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 7
+
+Result 3:
+Document: a) Tier 1 (Client Side)
+b) Tier 2 (Application/Logic)
+c) Tier 3 (Data)
+d) None of the above
+6. Which tier writes and reads data from relational or NoSQL databases?
+a) Presentation Tier
+b) Logic Tier
+c) Data Tier
+d) Network Tier
+7. What is the primary purpose of the INT or INTEGER data type?
+a) To store text
+b) To store standard whole numbers
+c) To store dates
+d) To store exact decimals
+8. Which data type should be used for exact decimals where precision is critical, such as
+money?
+a) FLOAT
+b) DOUBLE
+c) DECIMAL
+d) REAL
+Distance: 1.1678224802017212
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Q9: What is the difference between SQL and NoSQL databases in scalability?
+
+Result 1:
+Document: a) Tier 1 (Client Side)
+b) Tier 2 (Application/Logic)
+c) Tier 3 (Data)
+d) None of the above
+6. Which tier writes and reads data from relational or NoSQL databases?
+a) Presentation Tier
+b) Logic Tier
+c) Data Tier
+d) Network Tier
+7. What is the primary purpose of the INT or INTEGER data type?
+a) To store text
+b) To store standard whole numbers
+c) To store dates
+d) To store exact decimals
+8. Which data type should be used for exact decimals where precision is critical, such as
+money?
+a) FLOAT
+b) DOUBLE
+c) DECIMAL
+d) REAL
+Distance: 1.0180402994155884
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 2
+
+Result 2:
+Document: Multiple Choice Questions (MCQs)
+1. What does a cell in a database table contain?
+a) A complete record about one entity
+b) A collection of related data
+c) One value at the intersection of a row and a column
+d) Multiple records
+2. The statement "Patient #1001 has a body temperature of 38.5°C" is an example of:
+a) Data
+b) Information
+c) Knowledge
+d) A database
+3. Applying human understanding, experience, and rules to information to make a decision is
+called:
+a) Data
+b) Information
+c) Knowledge
+d) Persistence
+4. Which of the following is an example of a Relational Database?
+a) MongoDB
+b) Firebase
+c) PostgreSQL
+d) CSV
+5. Which tier in the 3-tier architecture is responsible for User Experience & Rendering
+(formatting HTML, CSS, images)?
+Distance: 1.1920206546783447
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 1
+
+Result 3:
+Document: True/False (T/F)
+20. A table is a way to organize data inside a database and consists of
+rows and columns.
+21. In a database table, a row represents one property, such as a student's
+name.
+22. "Data" is defined as disconnected values without context
+(e.g., 38.5, 1001, True).
+23. Flat files and spreadsheets (like CSV and Excel) slow down severely
+when dealing with millions of rows.
+24. A Primary Key allows duplicate values so you can group similar records
+together.
+25. A Primary Key does not allow NULL values.
+26. The client side in a 3-tier architecture is trusted for security
+validations.
+Distance: 1.1957502365112305
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 3
+
+Q10: How does database replication work across multiple servers?
+
+Result 1:
+Document: Multiple Choice Questions (MCQs)
+1. What does a cell in a database table contain?
+a) A complete record about one entity
+b) A collection of related data
+c) One value at the intersection of a row and a column
+d) Multiple records
+2. The statement "Patient #1001 has a body temperature of 38.5°C" is an example of:
+a) Data
+b) Information
+c) Knowledge
+d) A database
+3. Applying human understanding, experience, and rules to information to make a decision is
+called:
+a) Data
+b) Information
+c) Knowledge
+d) Persistence
+4. Which of the following is an example of a Relational Database?
+a) MongoDB
+b) Firebase
+c) PostgreSQL
+d) CSV
+5. Which tier in the 3-tier architecture is responsible for User Experience & Rendering
+(formatting HTML, CSS, images)?
+Distance: 1.6046682596206665
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 1
+
+Result 2:
+Document: The record is duplicated.
+Distance: 1.623319387435913
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 4
+
+Result 3:
+Document: True/False (T/F)
+20. A table is a way to organize data inside a database and consists of
+rows and columns.
+21. In a database table, a row represents one property, such as a student's
+name.
+22. "Data" is defined as disconnected values without context
+(e.g., 38.5, 1001, True).
+23. Flat files and spreadsheets (like CSV and Excel) slow down severely
+when dealing with millions of rows.
+24. A Primary Key allows duplicate values so you can group similar records
+together.
+25. A Primary Key does not allow NULL values.
+26. The client side in a 3-tier architecture is trusted for security
+validations.
+Distance: 1.6384434700012207
+Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf
+Page: 3

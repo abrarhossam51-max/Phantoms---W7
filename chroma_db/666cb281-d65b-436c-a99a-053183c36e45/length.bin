@@ -1,0 +1,7 @@
+cted from Account A and
+added to Account B together, or neither.
+92. In the 3NF conversion example provided in the text, the DepartmentID in
+the Students table acts as a foreign key reference to the Departments table.
+93. If you have an unnormalized table where one student studies multiple
+subjects, creating a composite primary key out of (StudentID, SubjectID)
+immediately puts the entire table in
