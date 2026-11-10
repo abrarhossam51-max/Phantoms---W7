@@ -1,0 +1,95 @@
+PHANTOMS AI - WEEK 7
+DAY 3 - RAG TEST RESULTS
+============================================================
+
+QUESTION 1: What does a cell in a database table contain?
+ANSWER: It contains a single value located at the intersection of a row and a column.
+SOURCES:
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 3
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 1
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 8
+------------------------------------------------------------
+
+QUESTION 2: Which SQL data type stores exact decimal values such as money?
+ANSWER: DECIMAL.
+SOURCES:
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 5
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 2
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 4
+------------------------------------------------------------
+
+QUESTION 3: Which tier reads and writes data from databases?
+ANSWER: مش موجود في المستند
+SOURCES:
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 2
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 1
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 3
+------------------------------------------------------------
+
+QUESTION 4: What is the purpose of a Primary Key?
+ANSWER: مش موجود في المستند
+SOURCES:
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 3
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 9
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 10
+------------------------------------------------------------
+
+QUESTION 5: Which normal form eliminates transitive dependencies?
+ANSWER: 3NF (Third Normal Form) eliminates transitive dependencies.
+SOURCES:
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 9
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 7
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 10
+------------------------------------------------------------
+
+QUESTION 6: Why can't StudentID alone be a Primary Key when a student enrolls in multiple subjects?
+ANSWER: لأن StudentID لن يكون فريدًا لكل سجل (أي لكل تسجيل في مادة)، وبالتالي لا يمكن استخدامه كمفتاح أساسي بمفرده.
+SOURCES:
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 8
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 10
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 10
+------------------------------------------------------------
+
+QUESTION 7: How do 2NF and 3NF differ in handling dependencies?
+ANSWER: 2NF focuses on **partial dependencies** – it requires that every non‑key attribute depend on the whole of a composite primary key, so tables with a single‑column key cannot violate 2NF (87).  
+
+3NF goes further by removing **transitive dependencies**. Even if a table is in 2NF, it may still have unnecessary duplication because of transitive dependencies (62). Under 3NF, every non‑key attribute must depend only on the key, the whole key, and nothing but the key (63).  
+
+Thus, 2NF eliminates partial dependencies, while 3NF eliminates transitive dependencies and ensures that non‑key attributes depend solely on the primary key.
+SOURCES:
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 10
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 9
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 6
+------------------------------------------------------------
+
+QUESTION 8: How do the three tiers of a 3-tier architecture work together?
+ANSWER: في بنية الـ 3‑Tier يتعاون الثلاثة مستويات بهذه الطريقة:
+
+* **الطبقة الأولى (Tier 1 – العميل)** تتعامل مع المستخدم وتجمع المدخلات وتعرض النتائج.  
+* **الطبقة الثانية (Tier 2 – التطبيق/المنطق)** تعالج المنطق التجاري، وتنفّذ القواعد، وتستدعي خدمات خارجية (مثل Stripe أو Twilio) كما هو موضح في سؤال الاختيار المتعدد 73. بعد ذلك تتواصل مع طبقة البيانات للحصول على أو حفظ المعلومات.  
+* **الطبقة الثالثة (Tier 3 – البيانات)** تُدير تخزين البيانات في قواعد relational أو NoSQL وتستجيب لعمليات القراءة والكتابة التي يطلبها الطبقة الثانية (سؤال 6).  
+
+بهذا الشكل ينتقل الطلب من العميل إلى طبقة التطبيق التي تُجري المعالجة وتستدعي الطبقة الثالثة للبيانات، ثم تُعيد النتيجة إلى العميل.
+
+**ملاحظة على تعارض:** في العبارة 90 يُذكر أن طبقة البيانات (Tier 3) “تتعامل مع تنفيذ المنطق التجاري الحاسم مثل حساب الخصومات النهائية”، وهو يتعارض مع تعريف الطبقة الثانية كمسؤولة عن المنطق التجاري (Tier 2 – Application/Logic). لذا هناك تضارب في النص حول مكان تنفيذ المنطق التجاري.
+SOURCES:
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 10
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 7
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 2
+------------------------------------------------------------
+
+QUESTION 9: What is the difference between SQL and NoSQL databases in scalability?
+ANSWER: مش موجود في المستند
+SOURCES:
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 2
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 1
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 3
+------------------------------------------------------------
+
+QUESTION 10: How does database replication work across multiple servers?
+ANSWER: مش موجود في المستند
+SOURCES:
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 1
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 4
+- Source: lOo1A1zbzAI8Ry0HgNxaaxQ2eHfX4Q27sz0P7vEB.pdf | Page: 3
+------------------------------------------------------------
